@@ -1,1 +1,1 @@
-[text](https://8weeksqlchallenge.com/case-study-1/)
+[Link do desafio](https://8weeksqlchallenge.com/case-study-1/)

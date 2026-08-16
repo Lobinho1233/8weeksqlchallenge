@@ -1,7 +1,6 @@
 
 --Qual o valor total gasto por cada cliente no restaurante?
 
-
 SELECT t1.customer_id,
         SUM(t2.price) AS total_gasto
 FROM sales AS t1

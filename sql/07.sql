@@ -6,7 +6,7 @@ WITH tb_pedido AS (
     FROM sales AS t1
     LEFT JOIN members AS t2
         ON t1.customer_id = t2.customer_id
-    WHERE order_date < join_date
+    WHERE order_date <= join_date
 )
 SELECT t1.customer_id,
         t2.product_name
